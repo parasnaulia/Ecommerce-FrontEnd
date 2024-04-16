@@ -21,5 +21,5 @@ export const Published_Api_key =
 export const Secret_key =
   "sk_test_51P3Ad8SC0KB9sqXBE5X34guYpFmnZdqaPCPMJXGmnQP48BYerPyRGkGsrVPRKjuLmnuvu9OxyTmnrFKkC4wor8qR005DdHu8a2";
 
-const card = "4000003560000008";
-export const hosting = "https://ecommerce-backend-u7qr.vercel.app/";
+// const card = "4000003560000008";
+export const hosting = "https://ecommerce-backend-u7qr.vercel.app";
