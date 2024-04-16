@@ -1,0 +1,896 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.inner
+{
+  display: flex;
+  justify-content:space-evenly;
+  /* border: 2px solid black; */
+  position: relative;
+
+  background-color: rgb(3, 117, 240)
+}
+.inner div{
+ /* border: 1px solid black; */
+ padding: 0.8rem 0.8rem; 
+ background-color:rgb(3, 117, 240);
+ color:white;
+ font-size: 1.5rem;
+ cursor: pointer;
+
+}
+.inner div:hover
+{
+  color: black;
+  
+  
+}
+.cart
+{
+  font-size: 3rem;
+}
+.cart1
+{
+  font-size: 2rem;
+}
+.profile-data
+{
+  position:fixed;
+  /* left:50rem */
+}
+.orders
+{
+  position:fixed;
+
+
+ 
+}
+
+.About
+{
+  position: fixed;
+  text-decoration: none;
+
+}
+.Link-About{
+  text-decoration: none;
+}
+.contact
+{
+  position: fixed;
+
+
+  
+}
+.cart-Link
+{
+  text-decoration: none;
+}
+.Contact-Link
+{
+  text-decoration: none;
+}
+.S-Container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Search
+{
+  padding: 0.3rem;
+  width: 20vw;
+  height: 2.5rem;
+
+}
+.S-btn
+{
+  padding: 0.3rem;
+  
+  height: 2.5rem;
+
+}
+.Ham
+{
+  position: absolute;
+  top:0;
+  left:0;
+
+}
+.Sidebar
+{
+  /* border: 2px solid black; */
+  border-top:1px solid wheat ;
+  /* width: 10vw; */
+  position: fixed;
+  color: rgb(231, 223, 223);
+  /* display: inline;
+   */
+   width: 10vw;
+   height: 120vh;
+   overflow: scroll;
+   background-color: rgb(3, 117, 240);
+  font-size: 1.5rem;
+  top:5rem;
+}
+.Sidebar::-webkit-scrollbar {
+  width: 8px; /* Adjust width as desired */
+  background-color: rgb(3, 117, 240)/* Light gray background for track */
+}
+
+.Sidebar::-webkit-scrollbar-thumb {
+  background-color: #161515; /* Gray background for thumb */
+  border-radius: 6px; /* Rounded corners for thumb */
+}
+
+.inner-side
+{
+  margin: 3rem 0rem;
+}
+.inner-side div
+{
+  margin: 1rem 0.2rem;
+  cursor: pointer;
+}
+.filter
+{
+  /* background-color: #161515; */
+  /* margin-left: 20rem;       */
+margin: auto;
+  /* You Have to Adject it Bro                                            */
+  margin-top:2rem;
+  display: flex;
+  justify-content: center;
+
+ 
+  
+  
+}
+.filter-btn
+{
+  display: flex;
+  flex-direction: row;
+  gap:8rem;
+  font-size: 1.4rem;
+
+}
+.filter-btn div
+{
+  cursor: pointer;
+}
+.select
+{
+
+  margin: 0rem 0.6rem;
+}
+.Body
+{
+  
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row; */
+}
+.Body-items
+{
+  display: flex;
+  justify-content: space-between;
+  gap:2rem;
+  border: 1px solid rgb(169, 165, 165);
+  flex-wrap: wrap;
+
+}
+.Slider
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem;
+  /* transition: transform 0.5s ease; */
+  /* width: 70vw; */
+}
+
+
+
+.btn-next
+{
+  z-index: 100;
+  padding: 1rem;
+  position: relative;
+  right: 3.1rem;
+  bottom: 10rem;
+ 
+
+}
+.btn-prev
+{
+  padding: 1rem;
+  position: relative;
+  left: 3.1rem;
+  bottom: 10rem;
+}
+.item
+{
+  border: 2px solid rgb(173, 171, 171);
+  height: 43vh;
+  width: 13vw;
+  box-sizing: border-box;
+}
+.Body
+{
+  margin: 4rem 2rem;
+}
+.Body-items
+{
+  width: 74vw;
+  
+}
+.item-img
+{
+  transition: all 0.2s ease-in-out;
+}
+.item-img:hover
+{
+  transform: scale(1.1);
+  
+}
+.Fotter
+{
+  background-color: rgb(3, 117, 240);
+  color: rgb(235, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 73.4vh;
+
+ 
+}
+
+.inner
+{
+position: fixed;
+width: 100vw;
+top:0;
+z-index: 200;
+opacity: 1;
+
+}
+.filter{
+  margin-top: 3rem;
+}
+.S-Container
+{
+  margin-top: 8rem;
+}
+.Paging
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  /* border:1px solid black; */
+  margin-bottom: 1rem;
+}
+.Paging div
+{
+  /* border: 1px solid black; */
+  padding: 1rem;
+  cursor: pointer;
+  /* background-color: blue; */
+
+}
+.pp
+{
+  background-color:rgb(9, 220, 168);
+  color: #e6f2f3;
+  font-size: 2rem;
+}
+.Contact1
+{
+  margin-top: 7rem;
+ 
+}
+
+/* Here is Cart Css */
+.Cart-Container
+{
+  margin-top: 7rem;
+}
+.About-Container
+{
+  margin-top: 7rem;
+}
+.profile-Container
+{
+  margin-top: 7rem;
+}
+
+.Cart-Container
+{
+  margin-top: 7rem;
+}
+
+.Item-Container
+{
+  text-decoration: none;
+  color: black;
+  /* height: 70vh; */
+}
+.CardItems
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1.5rem;
+  gap:1rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.Buttons
+{
+  display: flex;
+  justify-content: space-around;
+}
+.Btn-In
+{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem 0rem;
+
+
+}
+.Btn-Real
+{
+  padding: 1rem;
+  background-color: yellow;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.Card-Container-1
+{
+  margin-top: 12rem;
+}
+.Price
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Rating
+{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.Star
+{
+  font-size: 1.5rem;
+  
+}
+.Discription
+{
+  display: flex;
+  flex-direction: column;
+  gap:2rem
+}
+.Offer
+{
+  font-size: 1rem;
+}
+.Recomandations
+{
+  margin:3rem;
+  /* border:2px solid black; */
+  display: flex;
+  justify-content: center;
+font-size:1rem;
+gap:1rem;
+}
+.Recomandations
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-items: center;
+}
+.Recom
+{
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: space-around;
+
+
+ 
+}
+.Recom-Inner
+{
+  border: 1px solid black;
+}
+.CartIndex
+{
+  text-decoration: none;
+}
+.Real-Container
+{
+  /* background-color: rgb(72, 126, 107); */
+  border-top: 2px solid black;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin: auto; */
+  /* margin-right: 1-0rem; */
+  gap:5rem
+
+}
+.Real-Container-inner
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  /* width: 70rem; */
+  margin:  2rem auto;
+  gap: 2rem;
+  /* margin-right: 3rem; */
+  cursor: pointer;
+  
+  
+}
+
+.Summary
+{
+  margin-right: 15rem;
+}
+.Div-Real-Cart
+{
+  margin-top: 10rem;
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* cursor: pointer; */
+}
+
+.btn-inner
+{
+  background-color: rgb(15, 148, 231);
+  color: rgb(24, 24, 23);
+  padding: 1rem;
+  cursor: pointer;
+
+}
+.Price
+{
+  border: 2px solid rgb(247, 243, 243);
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  box-shadow: 2px 2px 22px ;
+}
+.Price-Inner
+{
+  display: flex;
+  
+}
+.Total-Amount
+{
+  font-size: 2.2rem;
+  font-weight: bolder;
+
+ 
+  color: rgb(9, 9, 9);
+}
+.Saving
+{
+  color: rgb(21, 219, 21);
+}
+.price-div
+{
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+}
+.Place-Order
+{
+  padding: 1.5rem;
+  background-color: rgb(228, 110, 6);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  
+}
+.btn-1
+{
+  padding: 0.3rem;
+  margin: 0.3rem 0.3rem;
+  cursor: pointer;
+}
+.Cat
+
+{
+  display: flex;
+  /* margin: auto; */
+  position: absolute;
+  cursor: pointer;
+
+  /* height: 30vh; */
+  width: 19.5vw;
+  left:49rem;
+  margin-top: 0.1rem;
+  opacity: 200000;
+  z-index: 100000;
+  box-shadow:1px 1px 0px 1px;
+  font-size: 1rem;
+}
+
+.Cat-Container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  opacity: 200000;
+  z-index: 100000;
+  gap:1.2rem;
+  width: 100%;
+  background-color: rgb(247, 247, 246);
+  
+}
+.Cat-div:hover{
+  background-color: rgb(244, 242, 239);
+}
+.Cat-div
+{
+  /* border-bottom: 1px solid black; */
+  display: flex;
+  gap:1.2rem
+  
+}
+.Profile-Container
+{
+  display: flex;
+/* display: grid; */
+align-items: center;
+justify-content: center;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+
+.Profile-Container-inner
+{
+  margin: 2rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  /* grid-template-rows: 1fr 4fr;  */
+  /* grid-template-rows: 1fr 2fr; */
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  gap:3rem;
+  /* align-items: center; */
+
+  
+}
+.left-item
+{
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  border: 2px solid rgb(231, 222, 222);
+  /* height: 100vh; */
+  /* width: 30%; */
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  gap:6rem;
+  font-size: 1.4rem;
+}
+.right-item
+{
+ 
+  /* grid-column-start: 4;
+  grid-column-end: 10; */
+  border: 2px solid rgb(235, 220, 220);
+  font-size: 2rem;
+  
+
+
+}
+.right-Inner
+{
+  margin: 2rem 2rem;
+}
+.Input-Tag
+{
+  
+}
+.input-inner
+{
+  display: flex;
+ gap:1rem;
+ margin-top: 1rem;
+  
+}
+.input-inner input
+{
+  padding: 1rem 1rem;
+}
+.Right-Div
+{
+
+}
+.iinput
+{
+  padding: 1rem 1rem;
+}
+.Gender
+{
+  display: flex;
+  gap:1rem; 
+}
+.Gender
+{
+  margin: 2rem 1rem;
+}
+.Profile-img
+{
+  cursor: pointer;
+  
+}
+.div-3
+{
+  border: 2px solid  rgb(235, 220, 220);
+}
+.div-2
+{
+  border: 2px solid  rgb(235, 220, 220);
+  display: flex;
+  flex-direction: column;
+  gap:2rem
+  
+}
+.div-2-inner
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:2px solid  rgb(235, 220, 220);
+  cursor: pointer;
+
+}
+.email
+{
+  padding: 1rem 1rem;
+  margin: 0rem 1rem;
+
+}
+.mobile-div
+{
+  
+  margin: 1rem 1rem;
+}
+.faq
+{
+  font-size: 1rem;
+}
+.Input-Tag
+{
+  display: flex;
+  flex-direction: column;
+  gap:3.3rem;
+}
+.Account-1
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.Account-1
+{
+  margin-top: 1rem;
+}
+.about-us-container {
+  /* Add styles for the main container */
+  font-size: 1.3rem;
+  /* margin-top: 7rem; */
+  margin: 7rem 2rem;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  
+}
+.about-us-container
+{
+ 
+}
+
+
+/* Contact us Form */
+/* ContactUs.css */
+
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.SignUpOuter
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+font-size: 1.5rem;
+gap:2rem;
+background-image: url("../public/Images/shopping-bag-cart.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+.Signup-Container
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(105, 102, 102);
+  gap:1rem;
+  padding: 2rem 4rem;
+}
+.signup_input
+{
+  padding: 1rem 1rem;
+
+}
+.Login_Outer
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap:2rem;
+  background-image: url("../public/Images/shopping-bag-cart.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  
+}
+.Login_container
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction:column;
+  border: 2px solid rgb(130, 127, 127);
+  /* background-color: #f9f9f9; */
+  padding: 2rem 2rem;
+ gap:2rem;
+  
+}
+.Login_Btn
+{
+  width: 100%;
+  height:2rem;
+}
+.lastLine
+{
+  font-size: 1rem;
+
+}
+.lastLine Link{
+  text-decoration: none;
+}
+.SignUpButton
+{
+  width: 100%;
+  height: 2rem;
+}
+.error
+{
+  color: red;
+}
+.Forgot-Container
+{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.forgot-input
+{
+  padding: 0.8rem 0.8rem;
+  margin: 0.5rem 0.5rem;
+
+}
+.Forgot-Password
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pp-btn
+{
+  margin-left: 1rem;
+  margin: auto;
+}
+.pass
+{
+
+ 
+  cursor: pointer;
+
+}
+.pass_div
+{
+  display: flex;
+  flex-direction: row;
+}
+.eye
+{
+  
+  position: fixed;
+  /* right: 0; */
+  margin-left: 10rem;
+  margin: -2rem 11rem;
+  
+  /* bottom: 1rem; */
+}
